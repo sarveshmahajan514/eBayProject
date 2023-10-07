@@ -1,0 +1,14 @@
+package com.eBay.TestCases;
+
+import org.testng.annotations.Test;
+
+import com.eBay.Generic.BaseClass;
+
+public class TestCaseOne extends BaseClass
+{
+	@Test
+	public void applyingFilter()
+	{
+		
+	}
+}

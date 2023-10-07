@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25312" started-at="2023-10-07T22:59:55 IST" finished-at="2023-10-07T23:00:21 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="17751" started-at="2023-10-07T22:59:55 IST" finished-at="2023-10-07T23:00:13 IST">
+      <class name="com.eBay.TestCases.TestCaseOne">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eBay.TestCases.TestCaseOne@23fe1d71]" name="openBrowser" is-config="true" duration-ms="2155" started-at="2023-10-07T22:59:55 IST" finished-at="2023-10-07T22:59:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="hitURL()[pri:0, instance:com.eBay.TestCases.TestCaseOne@23fe1d71]" name="hitURL" is-config="true" duration-ms="2210" started-at="2023-10-07T22:59:57 IST" finished-at="2023-10-07T23:00:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitURL -->
+        <test-method status="PASS" signature="applyingFilter()[pri:0, instance:com.eBay.TestCases.TestCaseOne@23fe1d71]" name="applyingFilter" duration-ms="13264" started-at="2023-10-07T23:00:00 IST" finished-at="2023-10-07T23:00:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyingFilter -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eBay.TestCases.TestCaseOne@23fe1d71]" name="closeBrowser" is-config="true" duration-ms="105" started-at="2023-10-07T23:00:13 IST" finished-at="2023-10-07T23:00:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.eBay.TestCases.TestCaseOne -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="7540" started-at="2023-10-07T23:00:13 IST" finished-at="2023-10-07T23:00:21 IST">
+      <class name="com.eBay.TestCases.TestCaseTwo">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eBay.TestCases.TestCaseTwo@2641e737]" name="openBrowser" is-config="true" duration-ms="1039" started-at="2023-10-07T23:00:13 IST" finished-at="2023-10-07T23:00:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="hitURL()[pri:0, instance:com.eBay.TestCases.TestCaseTwo@2641e737]" name="hitURL" is-config="true" duration-ms="1980" started-at="2023-10-07T23:00:14 IST" finished-at="2023-10-07T23:00:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitURL -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.eBay.TestCases.TestCaseTwo@2641e737]" name="searchProduct" duration-ms="4421" started-at="2023-10-07T23:00:16 IST" finished-at="2023-10-07T23:00:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eBay.TestCases.TestCaseTwo@2641e737]" name="closeBrowser" is-config="true" duration-ms="99" started-at="2023-10-07T23:00:20 IST" finished-at="2023-10-07T23:00:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.eBay.TestCases.TestCaseTwo -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

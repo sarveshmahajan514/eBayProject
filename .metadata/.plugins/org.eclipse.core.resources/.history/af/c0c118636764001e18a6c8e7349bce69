@@ -1,0 +1,35 @@
+package com.eBay.POM;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class CellPhonesAndSmartphones 
+{
+	@FindBy(xpath="//button[text()='All Filters']")
+	private WebElement AllFilter;
+	
+	@FindBy(id="c5-mainPanel-condition")
+	private WebElement Condition;
+	
+	public CellPhonesAndSmartphones(WebDriver driver)
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	public WebElement getAllFilter()
+	{
+		return AllFilter;
+	}
+	
+	public void getCondition()
+	{
+		Condition.click();
+	}
+	
+	public WebElement returnCondition()
+	{
+		return Condition;
+	}
+}

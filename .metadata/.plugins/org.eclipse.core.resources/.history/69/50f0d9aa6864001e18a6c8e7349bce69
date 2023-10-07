@@ -1,0 +1,27 @@
+package com.eBay.TestCases;
+
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.annotations.Test;
+
+import com.eBay.Generic.BaseClass;
+import com.eBay.POM.CellPhoneAndAccessoriesPage;
+import com.eBay.POM.CellPhonesAndSmartphones;
+import com.eBay.POM.DashboardPage;
+
+public class TestCaseOne extends BaseClass
+{
+	@Test
+	public void applyingFilter()
+	{
+		DashboardPage d=new DashboardPage(driver);
+		d.getShopByCategory();
+		d.getCellphonesAndAccessories();
+		
+		CellPhoneAndAccessoriesPage c=new CellPhoneAndAccessoriesPage(driver);
+		c.getCellphonesAndSmartphones();
+		
+		CellPhonesAndSmartphones cs=new CellPhonesAndSmartphones(driver);
+		wait.until(ExpectedConditions.visibilityOf(cs.getAllFilter())).click();
+		wait.until(ExpectedConditions.visibilityOf(cs.returnCondition())).click();
+	}
+}

@@ -1,0 +1,25 @@
+package com.eBay.POM;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class DashboardPage 
+{
+	@FindBy(id="gh-shop-a")
+	WebElement shopbycategory;
+	
+	@FindBy(xpath="//a[text()='Cell phones & accessories']")
+	WebElement Cellphonesandaccessories;
+	
+	public DashboardPage(WebDriver driver)
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void getShopByCategory()
+	{
+		shopbycategory.click();
+	}
+}
